@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Percha S.L - Tienda de Camisetas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+            transition: opacity 0.3s ease;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .product button:hover {
+            background-color: #45a049;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        /* Efecto hover para las imágenes: desaparecer cuando se pasa el ratón */
+        .product:hover img {
+            opacity: 0; /* La imagen se vuelve invisible */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>La Percha S.L</h1>
+    <p>Tu tienda online de camisetas de la liga española</p>
+</header>
+
+<div class="container">
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/FC_Barcelona_2020-2021_Home_Jersey.png" alt="Camiseta FC Barcelona">
+        <h2>FC Barcelona</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Real_Madrid_2021-2022_home_jersey.png" alt="Camiseta Real Madrid">
+        <h2>Real Madrid</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Atl%C3%A9tico_de_Madrid_2020-2021_home_jersey.png" alt="Camiseta Atlético Madrid">
+        <h2>Atlético Madrid</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Sevilla_FC_2020-2021_home_jersey.png" alt="Camiseta Sevilla FC">
+        <h2>Sevilla FC</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Real_Betis_Balompié_2020-2021_home_jersey.png" alt="Camiseta Real Betis">
+        <h2>Real Betis</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Valencia_CF_2020-2021_home_jersey.png" alt="Camiseta Valencia CF">
+        <h2>Valencia CF</h2>
+        <p>Camiseta Oficial</p>
+        <button>Añadir al carrito</button>
+    </div>
+</div>
+
+</body>
+</html>
